@@ -17,7 +17,7 @@ module.exports = {
     "storyStoreV7": true
   },
   viteFinal: (config, { configType }) => {
-    if (configType == 'PRODUCTION') {
+    if (configType === 'PRODUCTION') {
       config.base = '/Design-System-IgniteLab-RocketSeat/'
     }
 
