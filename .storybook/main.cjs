@@ -21,6 +21,5 @@ module.exports = {
       config.base = '/design-system-ignitelab-rocketseat/'
     }
 
-    return config
   }
 }
